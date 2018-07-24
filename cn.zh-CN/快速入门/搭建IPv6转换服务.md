@@ -1,6 +1,6 @@
 # 搭建IPv6转换服务 {#concept_qp3_kn2_n2b .concept}
 
-本教程指引您快速配置一个IPv6转换服务实例，使本地的IPv4服务器可以接收来自IPv6协议的请求。
+本教程指引您快速配置一个IPv6转换服务实例，使本地的IPv4服务器可以接收来自IPv6客户端的请求。
 
 ## 前提条件 {#section_nkk_5n2_n2b .section}
 
@@ -19,7 +19,7 @@
 
 3.  配置实例。
 
-    本教程中的实例配置如下图所示，更多配置详情参见[实例配置说明](../../../../cn.zh-CN/用户指南/创建IPv6转换实例.md#table_p4m_2lq_m2b)。
+    本教程中的实例配置如下图所示，更多配置详情参见[实例配置说明](../../../../cn.zh-CN/用户指南/创建IPv6转换服务实例.md#table_p4m_2lq_m2b)。
 
     ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16069/7292_zh-CN.png)
 
