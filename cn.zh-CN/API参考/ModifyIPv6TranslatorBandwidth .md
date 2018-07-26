@@ -8,7 +8,7 @@
 |:-|:-|:---|:-|
 |Action|String|是| 要执行的操作。 取值：
 
- ModifyIPv6TranslatorPayType
+ ModifyIPv6TranslatorBandwidth
 
  |
 |RegionId|String|是| IPv6转换服务实例的地域。
@@ -43,7 +43,7 @@
 **请求示例**
 
 ``` {#createVPCpub}
-https://vpc.aliyuncs.com/?Action=ModifyIPv6TranslatorPayType
+https://vpc.aliyuncs.com/?Action=ModifyIPv6TranslatorBandwidth
 &RegionId=cn-hangzhou
 &Ipv6TranslatorId=ipv6trans-bp1i8ahxut1iedrqqgbco
 &Bandwidth=3
@@ -56,10 +56,10 @@ https://vpc.aliyuncs.com/?Action=ModifyIPv6TranslatorPayType
 
     ```
     <?xml version="1.0" encoding="UTF-8"?>
-    <ModifyIPv6TranslatorPayTypeResponse>
+    <ModifyIPv6TranslatorBandwidthResponse>
     	<OrderId>202304500950739</OrderId>
     	<RequestId>EF8198EE-8FC9-49C2-A22E-010D638D79AF</RequestId>
-    </ModifyIPv6TranslatorPayTypeResponse>
+    </ModifyIPv6TranslatorBandwidthResponse>
     ```
 
 -   JSON格式
