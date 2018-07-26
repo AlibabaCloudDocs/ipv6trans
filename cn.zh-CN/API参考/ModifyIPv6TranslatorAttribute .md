@@ -42,8 +42,10 @@
 **请求示例**
 
 ``` {#createVPCpub}
-https://vpc.aliyuncs.com/?Action=ModifyIPv6TranslatorAttribute
+https://vpc.aliyuncs.com/?Action=ModifyIPv6TranslatorAttribute 
 &RegionId=cn-hangzhou
+&Ipv6TranslatorId=ipv6trans-bp1i8ahxut1iedrqqgbco
+&Name=test
 &公共请求参数
 ```
 
@@ -53,15 +55,17 @@ https://vpc.aliyuncs.com/?Action=ModifyIPv6TranslatorAttribute
 
     ```
     <?xml version="1.0" encoding="UTF-8"?>
-    <CreateVpcResponse>
-    </CreateVpcResponse>
+    <ModifyIPv6TranslatorAttributeResponse>
+          <RequestId>AD006AF1-E5F8-49D3-82E2-3333F27103FF</RequestId>
+    </ModifyIPv6TranslatorAttributeResponse>
     ```
 
 -   JSON格式
 
     ```
-    
-    
+    {
+       "RequestId":"AD006AF1-E5F8-49D3-82E2-3333F27103FF"
+    }
     ```
 
-
+-   
