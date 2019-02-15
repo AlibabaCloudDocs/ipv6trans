@@ -18,8 +18,10 @@
  |
 |Ipv6TranslatorId|String|否| IPv6转换服务的实例ID。
 
+**说明：** 如果您不指定Ipv6TranslatorEntryId参数，则删除指定实例下所有的映射条目。
+
  |
-|Ipv6TranslatorEntryId|Integer|否| IPv6转换服务映射条目ID。
+|Ipv6TranslatorEntryId|Integer|否| 要删除的IPv6转换服务映射条目ID。
 
  |
 
@@ -37,7 +39,6 @@
 https://vpc.aliyuncs.com/?Action=DeleteIPv6TranslatorEntry 
 &RegionId=cn-hangzhou
 &Ipv6TranslatorId=ipv6trans-bp1i8ahxut1iedrqqgbco
-&Ipv6TranslatorEntryId=ipv6transentry-bp1gpgeb3umme48ygihhg
 &公共请求参数
 ```
 
