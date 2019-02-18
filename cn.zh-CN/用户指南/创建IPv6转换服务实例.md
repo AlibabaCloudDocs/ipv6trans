@@ -29,5 +29,8 @@
 
 实例创建后，系统会为其分配一个IPv6地址和两个IPv4地址。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15940/7293_zh-CN.png)
+-   IPv6地址：用于IPv6网络侧接收来自IPv6客户端的数据包。
+-   IPv4地址：用于与用户侧的公网IPv4地址连通，对接IPv4的后端服务器。
+
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15940/15504966017293_zh-CN.png)
 
