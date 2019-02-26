@@ -29,6 +29,7 @@
 |PayType|String|否| IPv6转换服务服务实例的付费类型。取值：
 
  -   PREPAY：预付费
+-   POSTPAY：后付费
 
  |
 |PricingCycle|String|否| 预付费的计费周期，取值：
@@ -43,7 +44,7 @@
 -   如果计费时长为Year，则取值为\[1,3\]。
 
  |
-|Autopay|Boolean|否| 是否自动支付预付费实例的帐单（自动续费），取值：
+|Autopay|Boolean|否| 是否自动支付预付费实例的帐单，取值：
 
  -   false：否（默认值）
 -   true：是
@@ -75,7 +76,7 @@
 **请求示例**
 
 ``` {#createVPCpub}
-https://vpc.aliyuncs.com/?Action=CreateVpc
+https://vpc.aliyuncs.com/?Action=CreateIPv6Translator
 &RegionId=cn-hangzhou
 &公共请求参数
 ```
@@ -85,16 +86,26 @@ https://vpc.aliyuncs.com/?Action=CreateVpc
 -   XML格式
 
     ```
-    <?xml version="1.0" encoding="UTF-8"?>
-    <CreateVpcResponse>
-    </CreateVpcResponse>
+    <?xml version="1.0" encoding="UTF-8" ?>
+    <CreateIPv6TranslatorResponse>
+    	<Ipv6TranslatorId>ipv6trans-bp1i8ahxut1iedrqqgbco</Ipv6TranslatorId>
+    	<Name>test_nat64gw_autopay_0725</Name>
+    	<OrderId>202303300940739</OrderId>
+    	<RequestId>1AE05898-06E5-4782-B4D0-6714DD94C4E6</RequestId>
+    	<Spec>small</Spec>
+    </CreateIPv6TranslatorResponse>
     ```
 
 -   JSON格式
 
     ```
-    
-    
+    {
+        "Ipv6TranslatorId": "ipv6trans-bp1i8ahxut1iedrqqgbco", 
+        "Name": "test_nat64gw_autopay_0725", 
+        "OrderId": 202303300940739, 
+        "RequestId": "1AE05898-06E5-4782-B4D0-6714DD94C4E6", 
+        "Spec": "small"
+    }
     ```
 
 
