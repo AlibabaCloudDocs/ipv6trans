@@ -4,7 +4,7 @@ IPv6转换服务（IPv6 Translation Service），是一种有状态的IPv6和IPv
 
  IPv6转换服务当前提供四层模式（支持TCP和UDP协议）。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15898/15325899337170_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/15898/15481782047170_zh-CN.png)
 
 ## 优势 {#section_jrx_25j_m2b .section}
 

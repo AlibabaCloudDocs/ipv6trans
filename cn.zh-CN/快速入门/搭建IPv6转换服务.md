@@ -15,13 +15,13 @@
 1.  登录[IPv6转换服务管理控制台](https://ipv6trans.console.aliyun.com/instances/cn-hangzhou)。
 2.  单击**创建IPv6转换实例**。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16069/7291_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16069/15481782717291_zh-CN.png)
 
 3.  配置实例。
 
-    本教程中的实例配置如下图所示，更多配置详情参见[实例配置说明](../../../../cn.zh-CN/用户指南/创建IPv6转换服务实例.md#table_p4m_2lq_m2b)。
+    本教程中的实例配置如下图所示，更多配置详情参见[实例配置说明](../../../../../cn.zh-CN/用户指南/创建IPv6转换服务实例.md#table_p4m_2lq_m2b)。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16069/7292_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16069/15481782717292_zh-CN.png)
 
 
 ## 步骤二 添加映射转发条目 {#section_d4c_hr2_n2b .section}
@@ -35,7 +35,7 @@
 3.  找到目标实例，然后单击**更多** \> **添加映射条目**。
 4.  配置转发条目。
 
-    本操作中的配置如下，更多详情参见[映射条目配置说明](../../../../cn.zh-CN/用户指南/添加映射条目.md#table_pml_5cd_n2b)。
+    本操作中的配置如下，更多详情参见[映射条目配置说明](../../../../../cn.zh-CN/用户指南/添加映射条目.md#table_pml_5cd_n2b)。
 
     -   **后端IPv4地址**： 要通过映射规则提供IPv6访问的服务器的公网IPv4地址。
 
@@ -57,10 +57,10 @@
 
     -   **条目名称**： 本操作输入**条目1**。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16069/7294_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16069/15481782717294_zh-CN.png)
 
 
 当实例状态变为**正常**时，表示配置生效。您可以单击监控图标查看流入流量、数据包、连接数等信息。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16069/7295_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/16069/15481782717295_zh-CN.png)
 
