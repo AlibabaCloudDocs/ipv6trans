@@ -1,4 +1,4 @@
-# CreateIPv6Translator {#doc_api_1132486 .reference}
+# CreateIPv6Translator {#doc_api_1132853 .reference}
 
 创建IPv6转换服务实例。
 

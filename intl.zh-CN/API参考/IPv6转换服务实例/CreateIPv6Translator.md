@@ -1,4 +1,4 @@
-# CreateIPv6Translator {#doc_api_1027216 .reference}
+# CreateIPv6Translator {#doc_api_1132853 .reference}
 
 创建IPv6转换服务实例。
 
@@ -30,7 +30,7 @@
 |Duration|Integer|否|1|购买时长，取值：
 
  -   如果计费时长为**Month**，则取值为1-9。
--   如果计费时长为**Year**，则取值为-3。
+-   如果计费时长为**Year**，则取值为3。
 
  |
 |Name|String|否|ipv6\_1|IPv6转换服务实例的名称，默认为实例ID。 长度为 2-100个字符，必须以字母或中文开头，可包含数字，点号（.），下划线（\_）和短横线（-）。但不能以http:// 或https://开头。
