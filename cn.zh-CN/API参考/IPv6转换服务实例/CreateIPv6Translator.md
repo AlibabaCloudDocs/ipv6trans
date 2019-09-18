@@ -10,16 +10,16 @@
 
 |名称|类型|是否必选|示例值|描述|
 |--|--|----|---|--|
-|Action|String|是|CreateIPv6Translator|要执行的操作。 取值：**CreateIPv6Translator**。
+|Action|String|是|CreateIPv6Translator|要执行的操作，取值：**CreateIPv6Translator**。
 
  |
 |RegionId|String|是|cm-hangzhou|IPv6转换服务实例的地域。 您可以通过调用**DescribeRegions**接口获取地域ID。
 
  |
-|AutoPay|Boolean|否|false|是否自动只支付预付费账单。取值：**true|false**。
+|AutoPay|Boolean|否|false|是否自动支付包年包月账单。取值：**true|false**。
 
  |
-|Bandwidth|Integer|否|10|IPv6转换服务实例的计费带宽（Mbps）。取值：**1-200**。若不设置转换映射条目的带宽，实例中的IPv6转换服务映射条目共享该带宽。
+|Bandwidth|Integer|否|10|IPv6转换服务实例的计费带宽（Mbps）。取值：**1**~**200**。若不设置转换映射条目的带宽，实例中的IPv6转换服务映射条目共享该带宽。
 
  **说明：** 若不指定带宽，默认为10Mbps。
 
@@ -29,26 +29,26 @@
  |
 |Duration|Integer|否|1|购买时长，取值：
 
- -   如果计费时长为**Month**，则取值为1-9。
--   如果计费时长为**Year**，则取值为3。
+ -   如果计费时长为**Month**，则取值为**1**~**9**。
+-   如果计费时长为**Year**，则取值为**3**。
 
  |
-|Name|String|否|ipv6\_1|IPv6转换服务实例的名称，默认为实例ID。 长度为 2-100个字符，必须以字母或中文开头，可包含数字，点号（.），下划线（\_）和短横线（-）。但不能以http:// 或https://开头。
+|Name|String|否|ipv6\_1|IPv6转换服务实例的名称，默认为实例ID。长度为2~100个字符，必须以字母或中文开头，可包含数字、点号（.）、下划线（\_）和短横线（-）。但不能以`http://`或`https://`开头。
 
  |
 |PayType|String|否|PREPAY|IPv6转换服务实例的付费类型。取值：
 
- -   **PREPAY**：预付费
--   **POSTPAY**：后付费
+ -   **PREPAY**：包年包月。
+-   **POSTPAY**：按量计费 。
 
  |
-|PricingCycle|String|否|Month|预付费的计费周期，取值：
+|PricingCycle|String|否|Month|包年包月的计费周期，取值：
 
- -   **Month**：按月购买（默认值）
--   **Year**：按年购买
+ -   **Month**（默认值）：按月购买。
+-   **Year**：按年购买。
 
  |
-|Spec|String|否|small|IPv6转换服务实例的规格。取值： **small**。
+|Spec|String|否|small|IPv6转换服务实例的规格。取值：**small**。
 
  |
 
